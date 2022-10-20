@@ -1,6 +1,6 @@
 /*Responsividade*/
 
-@media(min-width: 800px){
+@media(min-width: 768px){
     /*Header*/
     #nav_close, #nav_toggle{
         display: none;
@@ -39,6 +39,11 @@
         grid-template-columns: auto auto auto;
     }
 
+     /*Projetos*/
+    #projeto_list{
+        grid-template-columns: auto auto;
+    }
+
     /*Contato*/
     #informacoes{
         padding: 0 1em;
@@ -49,12 +54,5 @@
 
     #left_info form{
         width: 50vw;
-    }
-}
-
-@media(min-width: 1004px){
-    /*Projetos*/
-    #projeto_list{
-        flex-direction: row;
     }
 }
