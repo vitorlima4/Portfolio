@@ -1,0 +1,60 @@
+/*Responsividade*/
+
+@media(min-width: 800px){
+    /*Header*/
+    #nav_close, #nav_toggle{
+        display: none;
+    }
+
+    #nav_header{
+        justify-content: space-around;
+    }
+
+    #nav_list{
+        flex-direction: row;
+        gap: 0 2em;
+    }
+
+    /*Home*/
+    #home{
+        flex-direction: row;
+    }
+
+    #right_home img{
+        display: block;
+        width: 400px;
+    }
+
+    /*Sobre*/
+    #sobre{
+        flex-direction: row;
+    }
+
+    #right_sobre{
+        width: 75%;
+    }
+
+    /*Habilidades*/
+    #skill_list{
+        grid-template-columns: auto auto auto;
+    }
+
+    /*Contato*/
+    #informacoes{
+        padding: 0 1em;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        gap: 0 1em;
+    }
+
+    #left_info form{
+        width: 50vw;
+    }
+}
+
+@media(min-width: 1004px){
+    /*Projetos*/
+    #projeto_list{
+        flex-direction: row;
+    }
+}
