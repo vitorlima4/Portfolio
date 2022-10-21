@@ -52,7 +52,11 @@
         gap: 0 1em;
     }
 
-    #left_info form{
+    #right_info img {
+        height: 300px;
+    }
+
+    #left_info{
         width: 50vw;
     }
 }
