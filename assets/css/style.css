@@ -100,7 +100,7 @@ img {
     top: 0;
 }
 
-/*Home*/
+/*Section Home*/
 #home {
     text-transform: uppercase;
     color: var(--corBranco);
@@ -156,14 +156,14 @@ img {
     text-align: justify;
 }
 
-/*Sobre*/
+/*Section Sobre*/
 #sobre {
     padding: 1em 2em;
     background-color: var(--corFundo);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px 0;
 }
 
@@ -177,7 +177,7 @@ img {
     padding: 0 1em;
 }
 
-/*Habilidades*/
+/*Section Habilidades*/
 #skill {
     padding: 1em 2em;
     background-color: var(--corFundoSecundaria);
@@ -187,8 +187,11 @@ img {
 }
 
 #skill_list {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
 }
 
 /*Icons Habilidades*/
@@ -225,38 +228,99 @@ img {
     text-align: center;
 }
 
-/*Projetos*/
+/*Section Projetos*/
 #projetos {
     padding: 1em 2em;
     background-color: var(--corFundo);
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1.5em;
 }
 
 #projeto_list {
-    display: grid;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     gap: 20px;
 }
 
 .projeto_itens {
+    padding: 1em;
     background-color: var(--corCinza);
-    width: 310px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
     border-radius: 5px;
-    border-left: 10px solid var(--corPrincipal);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.projeto_itens p {
+/*Imagens do projeto*/
+.img_projeto{
+    height: 270px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#projeto01{
+    background-image: url(../imagens/img_proj01.png);
+}
+
+#projeto02{
+    background-image: url(../imagens/img_proj02.png);
+}
+
+#projeto03{
+    background-image: url(../imagens/img_proj03.png);
+}
+
+#projeto04{
+    background-image: url(../imagens/img_proj04.png);
+}
+
+/*Sobre o projeto*/
+.sobre_projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .4em;
+}
+
+.sobre_projeto p{
     color: #000;
-    text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
-/*Contato*/
+.link_projeto{
+    color: var(--corBranco);
+    padding: .5em 1em;
+    background-color: var(--corPrincipal);
+    border-radius: 5px;
+}
+
+.link_projeto:hover{
+    color: #000;
+}
+
+.icons_projeto{
+    font-size: 1.3em;
+}
+
+/*Repositorio GitHub*/
+#link_github{
+    font-size: 1.1em;
+    color: var(--corBranco);
+}
+
+#link_github:hover{
+    color: var(--corCinza);
+}
+
+/*Section Contato*/
 #contato {
     padding: 1em 0;
     background-color: var(--corFundoSecundaria);

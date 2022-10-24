@@ -31,19 +31,9 @@
     }
 
     #right_sobre{
-        width: 75%;
+        width: 55%;
     }
-
-    /*Habilidades*/
-    #skill_list{
-        grid-template-columns: auto auto auto;
-    }
-
-     /*Projetos*/
-    #projeto_list{
-        grid-template-columns: auto auto;
-    }
-
+    
     /*Contato*/
     #informacoes{
         padding: 0 1em;
