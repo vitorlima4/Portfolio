@@ -1,0 +1,10 @@
+footer {
+    text-align: center;
+    color: var(--corBranco);
+    padding: 1em 0;
+    background-color: var(--corFundo);
+}
+
+footer p a {
+    color: var(--corPrincipal);
+}

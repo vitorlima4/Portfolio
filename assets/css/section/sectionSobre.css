@@ -1,0 +1,31 @@
+#sobre {
+    padding: 1em 2em;
+    background-color: var(--corFundo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px 0;
+}
+
+#left_sobre img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+#right_sobre {
+    text-align: center;
+    padding: 0 1em;
+}
+
+/*Responsividade*/
+@media(min-width: 768px){
+    /*Sobre*/
+    #sobre{
+        flex-direction: row;
+    }
+
+    #right_sobre{
+        width: 55%;
+    }
+}

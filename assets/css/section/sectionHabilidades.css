@@ -1,0 +1,49 @@
+#skill {
+    padding: 1em 2em;
+    background-color: var(--corFundoSecundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skill_list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+/*Icons Habilidades*/
+.item_icons {
+    font-size: 8em;
+}
+
+.bxl-html5 {
+    color: #dd4b25ff;
+}
+
+.bxl-css3 {
+    color: #254bddff;
+}
+
+.bxl-javascript {
+    color: #efd81dff;
+}
+
+.bxl-python {
+    color: #00264dff;
+}
+
+.bxl-java {
+    color: #517f9cff;
+}
+
+.bxl-git {
+    color: #e84d31ff;
+}
+
+.item_list p {
+    text-transform: uppercase;
+    text-align: center;
+}

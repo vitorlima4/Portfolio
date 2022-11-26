@@ -1,0 +1,13 @@
+.section_container {
+    color: var(--corBranco);
+}
+
+.section_container h1 {
+    color: var(--corPrincipal);
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+.section_container p {
+    text-align: justify;
+}

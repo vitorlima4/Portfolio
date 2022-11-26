@@ -1,0 +1,52 @@
+#home {
+    text-transform: uppercase;
+    color: var(--corBranco);
+    background-color: var(--corFundoSecundaria);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#left_home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#left_home h1 {
+    color: var(--corPrincipal);
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+
+#left_home p {
+    font-size: 1em;
+}
+
+#social_home .link_home {
+    font-size: 2.5em;
+}
+
+#social_home .link_home:hover {
+    color: var(--corPrincipal);
+    cursor: pointer;
+}
+
+#right_home img {
+    display: none;
+}
+
+/*Responsividade*/
+@media(min-width: 768px){
+    /*Home*/
+    #home{
+        flex-direction: row;
+    }
+
+    #right_home img{
+        display: block;
+        width: 400px;
+    }
+}
