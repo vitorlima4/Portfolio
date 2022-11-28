@@ -1,24 +1,38 @@
 #contato {
     padding: 1em 0;
-    background-color: var(--corFundoSecundaria);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #informacoes {
-    width: 100%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+}
+
+/*Informações de Contato*/
+#right_info .info_contato{
+    color: #000;
+    background-color: var(--corCinza);
+    margin-top: 5px;
+    padding: 20px 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
-#right_info img {
-    height: 250px;
+#right_info .contato_icons{
+    color: #000;
 }
+
+/*Formulário de Contato*/
 
 #left_info {
-    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,8 +45,7 @@
 
 #left_info form {
     width: 100%;
-    padding: .8em 0;
-    border-bottom: 1px solid var(--corBranco);
+    padding: 10px 0;
     display: flex;
     flex-direction: column;
     gap: 5px 0;
@@ -72,7 +85,7 @@ textarea {
 }
 
 #btn_enviar {
-    font-size: 1em;
+    font-size: 1.1em;
     background-color: var(--corPrincipal);
     height: 40px;
     border-radius: 5px;
@@ -80,43 +93,13 @@ textarea {
     cursor: pointer;
 }
 
-#btn_enviar:hover{
-    color: var(--corBranco);
-}
-
-#left_info #social_contato {
-    font-size: 1.2em;
-    padding: .5em 0;
-}
-
-.bxl-whatsapp {
-    color: #4aaa4dff;
-}
-
-.bxl-discord-alt {
-    color: #5562eaff;
-}
-
-.bxl-telegram {
-    color: #33a6e1ff;
-}
-
-.contato_icons:hover {
-    color: var(--corPrincipal);
-}
-
 /*Responsividade*/
-@media(min-width: 768px){    
-    /*Contato*/
+@media(min-width: 790px){ 
     #informacoes{
         padding: 0 1em;
         flex-direction: row-reverse;
         justify-content: space-around;
-        gap: 0 1em;
-    }
-
-    #right_info img {
-        height: 300px;
+        gap: 0 30px;
     }
 
     #left_info{

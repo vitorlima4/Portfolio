@@ -1,7 +1,5 @@
 #home {
     text-transform: uppercase;
-    color: var(--corBranco);
-    background-color: var(--corFundoSecundaria);
     height: 100vh;
     display: flex;
     flex-direction: column;

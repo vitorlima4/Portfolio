@@ -1,5 +1,6 @@
 .section_container {
     color: var(--corBranco);
+    background-color: var(--corFundoSecundaria);
 }
 
 .section_container h1 {

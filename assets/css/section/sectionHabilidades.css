@@ -1,6 +1,5 @@
 #skill {
     padding: 1em 2em;
-    background-color: var(--corFundoSecundaria);
     display: flex;
     flex-direction: column;
     align-items: center;

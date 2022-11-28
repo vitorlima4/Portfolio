@@ -62,7 +62,7 @@
 
     <main>
         <!--Home-->
-        <section id="section_home">
+        <section  class="section_container" id="section_home">
             <div id="home">
                 <div id="left_home">
                     <p>Olá, eu sou</p>
@@ -208,13 +208,27 @@
 
                 <div id="informacoes">
                     <div id="right_info">
-                        <img src="assets/imagens/imagem_contato.svg" alt="imagem de contato">
+                        <div id="email_contato" class="info_contato">
+                            <i class='bx bxs-envelope contato_icons'></i>
+                            <p>vitorb.lima102@gmail.com</p>
+                        </div>
+
+                        <div id="whatsapp_contato" class="info_contato">
+                            <i class='bx bxl-whatsapp contato_icons'></i>
+                            <p>+55 (86) 99579-6377</p>
+                        </div>
+                        
+                        <div id="endereco_contato" class="info_contato">
+                            <i class='bx bx-map contato_icons'></i>
+                            <p>Rua Jornalista Antônio Diniz - Parque Ideal, 2153 <br>
+                                Teresina - Piauí - Brasil
+                            </p>
+                        </div>
                     </div>
 
                     <div id="left_info">
-
                         <div id="aviso">
-                            <p>Entre em contato através do formulário ou pelas redes sociais.</p>
+                            <p>Entre em contato através do formulário.</p>
                         </div>
 
                         <form action="https://formsubmit.co/vitorb.lima102@gmail.com" method="POST">
@@ -245,12 +259,6 @@
                             
                             <button type="submit" id="btn_enviar">Enviar</button>
                         </form>
-    
-                        <div id="social_contato">
-                            <a href="#"><i class='bx bxl-whatsapp contato_icons'></i></a>
-                            <a href="#"><i class='bx bxl-telegram contato_icons'></i></a>
-                            <a href="#"><i class='bx bxl-discord-alt contato_icons'></i></a>
-                        </div>
                     </div>
                 </div>
             </div>

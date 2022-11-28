@@ -1,7 +1,7 @@
 footer {
     text-align: center;
     color: var(--corBranco);
-    padding: 1em 0;
+    padding: 20px 0;
     background-color: var(--corFundo);
 }
 
