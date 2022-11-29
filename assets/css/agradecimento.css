@@ -58,7 +58,3 @@ main{
     text-transform: uppercase;
     text-decoration: none;
 }
-
-#bottom_section a:hover{
-    color: var(--corBranco);
-}
