@@ -11,16 +11,16 @@
 
 :root {
     /*Cores*/
-    --corPrincipal: #00d2dfff;
-    --corBranco: #fff;
-    --corPreto: #000;
-    --corFundo: #151515ff;
+    --color-main: #00d2dfff;
+    --text01: #000;
+    --bg01: #151515ff;
+    --bg02: #cacbcfff;
 }
 
 /*Main*/
 main{
-    color: var(--corPrincipal);
-    background-color: var(--corFundo);
+    color: var(--text01);
+    background-color: var(--bg01);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -31,7 +31,8 @@ main{
 #main_section{
     height: 50%;
     width: 70%;
-    background-color: rgba(146, 145, 145, 0.171);
+    margin: 0px 20px;
+    background-color: var(--bg02);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -48,13 +49,13 @@ main{
 
 #bottom_section{
     padding: 5px 20px;
-    background-color: var(--corPrincipal);
+    background-color: var(--color-main);
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.377);
 }
 
 #bottom_section a{
-    color: var(--corPreto);
+    color: var(--text01);
     text-transform: uppercase;
     text-decoration: none;
 }

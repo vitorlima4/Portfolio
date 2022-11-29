@@ -1,4 +1,5 @@
 #sobre {
+    background-color: var(--bg03);
     padding: 1em 2em;
     display: flex;
     flex-direction: column;
@@ -17,9 +18,7 @@
     padding: 0 1em;
 }
 
-/*Responsividade*/
 @media(min-width: 768px){
-    /*Sobre*/
     #sobre{
         flex-direction: row;
     }

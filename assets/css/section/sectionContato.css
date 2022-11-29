@@ -1,4 +1,5 @@
 #contato {
+    background-color: var(--bg02);
     padding: 1em 0;
     display: flex;
     flex-direction: column;
@@ -15,8 +16,8 @@
 
 /*Informações de Contato*/
 #right_info .info_contato{
-    color: #000;
-    background-color: var(--corCinza);
+    color: var(--text01);
+    background-color: var(--bg04);
     margin-top: 5px;
     padding: 20px 10px;
     border-radius: 5px;
@@ -27,7 +28,7 @@
 }
 
 #right_info .contato_icons{
-    color: #000;
+    color: var(--text01);
 }
 
 /*Formulário de Contato*/
@@ -52,7 +53,7 @@
 }
 
 .form_div {
-    background-color: var(--corCinza);
+    background-color: var(--bg04);
     padding: 0 5px;
     border-radius: 5px;
     display: flex;
@@ -60,12 +61,12 @@
 }
 
 .form_div .icon_input {
-    color: var(--corPrincipal);
+    color: var(--color-main);
     font-size: 1.5em;
 }
 
 .form_div input {
-    background-color: var(--corCinza);
+    background-color: var(--bg04);
     font-size: .9em;
     height: 40px;
     width: 100%;
@@ -75,7 +76,7 @@
 }
 
 textarea {
-    background-color: var(--corCinza);
+    background-color: var(--bg04);
     font-size: .9em;
     border-radius: 5px;
     padding: 5px;
@@ -86,14 +87,13 @@ textarea {
 
 #btn_enviar {
     font-size: 1.1em;
-    background-color: var(--corPrincipal);
+    background-color: var(--color-main);
     height: 40px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
 }
 
-/*Responsividade*/
 @media(min-width: 790px){ 
     #informacoes{
         padding: 0 1em;

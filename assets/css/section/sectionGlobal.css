@@ -1,10 +1,9 @@
 .section_container {
-    color: var(--corBranco);
-    background-color: var(--corFundoSecundaria);
+    color: var(--text02);
 }
 
 .section_container h1 {
-    color: var(--corPrincipal);
+    color: var(--color-main);
     font-size: 1.7em;
     text-transform: uppercase;
 }

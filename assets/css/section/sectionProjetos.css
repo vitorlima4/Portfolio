@@ -1,4 +1,5 @@
 #projetos {
+    background-color: var(--bg03);
     padding: 1em 2em;
     display: flex;
     flex-direction: column;
@@ -16,7 +17,7 @@
 
 .projeto_itens {
     padding: 1em;
-    background-color: var(--corCinza);
+    background-color: var(--bg04);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -56,19 +57,19 @@
 }
 
 .sobre_projeto p{
-    color: #000;
+    color: var(--text01);
     font-size: 1.2em;
 }
 
 .sobre_projeto span{
-    color: #000;
+    color: var(--text01);
     font-size: 1em;
 }
 
 .link_projeto{
-    color: #000;
+    color: var(--text01);
     padding: .5em 1em;
-    background-color: var(--corPrincipal);
+    background-color: var(--color-main);
     border-radius: 5px;
 }
 
@@ -76,9 +77,9 @@
 #link_github{
     text-align: center;
     font-size: 1.1em;
-    color: var(--corBranco);
+    color: var(--text02);
 }
 
 #link_github:hover{
-    color: var(--corCinza);
+    color: var(--color-main);
 }

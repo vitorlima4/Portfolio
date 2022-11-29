@@ -8,13 +8,28 @@
     box-sizing: border-box;
 }
 
-:root {
-    /*Cores*/
-    --corPrincipal: #00d2dfff;
-    --corBranco: #fff;
-    --corCinza: #cacbcfff;
-    --corFundo: #121212ff;
-    --corFundoSecundaria: #272727ff;
+:root{
+    --bg01: #f7f7f7;
+    --bg02: #e0e0e0;
+    --bg03: #dadce0ff;
+    --bg04: #cacbcfff;
+
+    --text01: #000;
+    --text02: #000;
+
+    --color-main: #00d2dfff;
+}
+
+body.light-theme{
+    --bg01: #121212ff;
+    --bg02: #1a1a1a;
+    --bg03: #151515ff;
+    --bg04: #cacbcfff;
+
+    --text01: #000;
+    --text02: #fff;
+
+    --color-main: #00d2dfff;
 }
 
 ul {
@@ -31,6 +46,6 @@ img {
 }
 
 .bx {
-    color: var(--corBranco);
-    font-size: 2em;
+    color: var(--text02);
+    font-size: 2rem;
 }
