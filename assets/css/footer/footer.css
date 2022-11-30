@@ -1,8 +1,11 @@
 footer {
     text-align: center;
-    color: var(--text02);
     padding: 20px 0;
     background-color: var(--bg01);
+}
+
+footer p{
+    color: var(--text02);
 }
 
 footer p a {

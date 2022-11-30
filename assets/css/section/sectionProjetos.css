@@ -56,14 +56,8 @@
     gap: 5px;
 }
 
-.sobre_projeto p{
+.sobre_projeto h3, span{
     color: var(--text01);
-    font-size: 1.2em;
-}
-
-.sobre_projeto span{
-    color: var(--text01);
-    font-size: 1em;
 }
 
 .link_projeto{
@@ -76,7 +70,6 @@
 /*Repositorio GitHub*/
 #link_github{
     text-align: center;
-    font-size: 1.1em;
     color: var(--text02);
 }
 

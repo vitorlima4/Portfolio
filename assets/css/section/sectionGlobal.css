@@ -4,7 +4,6 @@
 
 .section_container h1 {
     color: var(--color-main);
-    font-size: 1.7em;
     text-transform: uppercase;
 }
 

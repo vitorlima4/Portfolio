@@ -18,7 +18,11 @@
     padding: 0 1em;
 }
 
-@media(min-width: 768px){
+#right_sobre p{
+    color: var(--text02);
+}
+
+@media(min-width: 770px){
     #sobre{
         flex-direction: row;
     }

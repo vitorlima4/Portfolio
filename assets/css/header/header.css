@@ -17,10 +17,11 @@
 }
 
 #nav_logo a {
+    font-size: var(--h1-fs);
     color: var(--text02);
 }
 
-@media(max-width: 767px) {
+@media(max-width: 769px) {
     .nav_menu {
         width: 100%;
         padding: 2em 0;
@@ -51,10 +52,6 @@
     color: var(--text02);
 }
 
-.theme-icon{
-    font-size: 1.4rem;
-}
-
 .nav_links:hover,
 .bx-x:hover,
 .bx-menu:hover, .bx-moon:hover {
@@ -67,8 +64,7 @@
     top: 0;
 }
 
-@media(min-width: 768px){
-    /*Header*/
+@media(min-width: 770px){
     #nav_close, #nav_toggle{
         display: none;
     }

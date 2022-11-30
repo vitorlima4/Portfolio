@@ -1,14 +1,8 @@
 /*Fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-* {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root{
+:root {
+    /*Cores*/
     --bg01: #f7f7f7;
     --bg02: #e0e0e0;
     --bg03: #dadce0ff;
@@ -17,10 +11,36 @@
     --text01: #000;
     --text02: #000;
 
-    --color-main: #00d2dfff;
+    --color-main: #074365ff;
+
+    /*Fonte e tipografia*/
+    --body-font: 'Poppins', sans-serif;
+
+    --h1-fs: 1.5rem;
+    --h2-fs: 1.25rem;
+    --h3-fs: 1.125rem;
+    --normal-fs: .938rem;
+    --small-fs: .813rem;
 }
 
-body.light-theme{
+@media (min-width: 950px) {
+    :root {
+        --h1-fs: 2rem;
+        --h2-fs: 1.5rem;
+        --h3-fs: 1.25rem;
+        --normal-fs: 1rem;
+        --small-fs: .913rem;
+    }
+}
+
+* {
+    font-family: var(--body-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.light-theme {
     --bg01: #121212ff;
     --bg02: #1a1a1a;
     --bg03: #151515ff;
@@ -32,11 +52,32 @@ body.light-theme{
     --color-main: #00d2dfff;
 }
 
+h1{
+    font-size: var(--h1-fs);
+}
+
+h2{
+    font-size: var(--h2-fs);
+}
+
+h3{
+    font-size: var(--h3-fs);
+}
+
+p, button, li{
+    font-size: var(--normal-fs);
+}
+
+span, input, textarea{
+    font-size: var(--small-fs);
+}
+
 ul {
     list-style: none;
 }
 
 a {
+    font-size: var(--normal-fs);
     text-decoration: none;
 }
 
@@ -47,5 +88,5 @@ img {
 
 .bx {
     color: var(--text02);
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
